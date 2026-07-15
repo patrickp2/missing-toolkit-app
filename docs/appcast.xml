@@ -8,24 +8,24 @@
         <description>Appcast for Missing Toolkit.</description>
         <language>en</language>
         <item>
-            <title>Version 0.1.3</title>
-            <link>https://github.com/patrickp2/missing-toolkit-app/releases/tag/v0.1.3</link>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>0.1.3</sparkle:shortVersionString>
+            <title>Version 0.1.4</title>
+            <link>https://github.com/patrickp2/missing-toolkit-app/releases/tag/v0.1.4</link>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
             <description sparkle:format="markdown"><![CDATA[
-Version 0.1.3.
+Version 0.1.4.
 
-- Improves capture and recording cleanup after selections complete.
-- Makes recording review exports safer when render options change quickly.
-- Preserves existing video output if a replacement export fails.
-- Makes dictation clipboard restoration less likely to overwrite newer clipboard changes.
-- Adds release and install guardrails to reduce publishing and local install mistakes.
+- Renames the app to Missing Toolkit while preserving stable signing for permissions and updates.
+- Adds an Accessibility-powered window switcher with slots 0–9, more reliable focus and cycling, and a shortcut to close the focused window.
+- Adds a shortcut to open screenshots directly in the annotation editor.
+- Adds an audio waveform to recording review and improves video transcription chunking and timeline mapping.
+- Adds local Nemotron voice dictation with live transcription and a streamlined audio preparation pipeline.
 ]]></description>
-            <pubDate>Mon, 15 Jun 2026 18:19:09 +0000</pubDate>
+            <pubDate>Wed, 15 Jul 2026 18:32:43 +0000</pubDate>
             <enclosure
-                url="https://github.com/patrickp2/missing-toolkit-app/releases/download/v0.1.3/Screen-Capture-and-Dictation-App-0.1.3.dmg"
-                sparkle:edSignature="ikMmRX9xW0jTIIvMxymCAxzMhraOeUZmJlFQ9jqHnFN5hrUHvv699YxYBTZ4X/DF8AEk72W+PvLSZ2IQJRcjCw=="
-                length="1952355"
+                url="https://github.com/patrickp2/missing-toolkit-app/releases/download/v0.1.4/Missing-Toolkit-0.1.4.dmg"
+                sparkle:edSignature="MyJlEwRjLRKi7z4Y3g74emYG/3RHR2ZdLyrXXB+2D8OMlK4FTV3EZqYXDyEQFfKBiJ+3SRirEXfsoASm865fBw=="
+                length="5447151"
                 type="application/octet-stream" />
         </item>
     </channel>
